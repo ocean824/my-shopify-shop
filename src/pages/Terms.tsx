@@ -6,53 +6,137 @@ export default function Terms() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1">
-        <div className="container mx-auto px-4 py-8 max-w-3xl">
-          <h1 className="text-3xl font-bold mb-6">Terms of Use</h1>
+        <div className="container mx-auto px-4 py-8 max-w-4xl">
+          <p className="text-muted-foreground mb-2">nikothegreatbeatz@gmail.com</p>
           
-          <div className="prose prose-invert max-w-none space-y-6">
+          <h1 className="text-3xl font-bold mb-2">SAMPLE SOCIETY TERMS OF USE</h1>
+          <h2 className="text-2xl font-bold mb-6">SAMPLE SOCIETY MASTER USE LICENSE AGREEMENT</h2>
+          <p className="text-muted-foreground mb-8">(Effective Upon Purchase or Download)</p>
+          
+          <div className="prose prose-invert max-w-none space-y-8 text-muted-foreground">
+            <p>
+              This Master Use License Agreement ("Agreement") is entered into by and between Sample Society, LLC ("Licensor"), acting on behalf of its affiliated producers, composers, and sound designers (collectively, the "Creators"), and the purchaser or user ("Licensee" or "Client").
+            </p>
+            
+            <p>
+              By purchasing, downloading, or otherwise obtaining any sound recordings, compositions, or sample packs ("Materials") from Sample-Society.com, Licensee agrees to be legally bound by the terms of this Agreement.
+            </p>
+
             <section>
-              <h2 className="text-xl font-semibold mb-3 text-primary">License Agreement</h2>
-              <p className="text-muted-foreground">
-                By purchasing any sample pack or drum kit from Niko The Great, you are granted a 
-                non-exclusive, royalty-free license to use the sounds in your music productions.
+              <h3 className="text-xl font-semibold mb-4 text-primary">1. GRANT OF LICENSE</h3>
+              <p className="mb-4">
+                Licensor hereby grants to Licensee a non-exclusive, non-transferable, worldwide license to use the Materials in Licensee's own musical and audiovisual works, subject to the following terms:
               </p>
+              
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3 text-foreground">(a) Compositions, Stems, Multi-Kits, Construction Kits, and Drum Breaks ("Master Use Materials")</h4>
+                <p className="mb-3">
+                  Licensee may incorporate these Materials into new musical works for commercial release, placement, or synchronization. Licensee must give credit on derivative works to the named Creator(s) as "Producer," "Co-Producer," or "Contains sample(s) by "Creator(s)" Ex: "Co-Prod by [Creator Name]"; the creator(s) name will be provided on every kit. Licensee must provide the Creator(s) a fair and equal publishing share/revenue split on resale of derivative works utilizing the materials (default: even share off associated advances, fees, writer's, and publisher's, split unless otherwise specified: contact nikothegreatbeatz@gmail.com for Revenue Split/PRO information). Licensee must ensure that Creator(s) are properly registered with applicable performing rights organizations (PROs) for all distributed works containing these Materials. contact nikothegreatbeatz@gmail.com for Revenue Split/PRO information). These Materials are not royalty-free; they require proper attribution and publishing participation. In case of placement using the sample(s), you will split the publishing, royalties, mechanicals, points & advance fees with the Creator(s) fairly and Production (or Co-Production) or sample attribution must be credited to the Creator(s).
+                </p>
+              </div>
+              
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold mb-3 text-foreground">(b) One-Shots, Midi-Kits, and Sound Banks ("Royalty-Free Materials")</h4>
+                <p>
+                  Licensee may freely use individual sounds, drum hits, FX, Midi, or other one-shot samples in new compositions without credit, royalties, or publishing splits. Royalty-Free Materials may not be resold, redistributed, or included in new sample packs, libraries, or virtual instruments. Licensee owns full creative rights to works incorporating these sounds, subject only to the restriction above.
+                </p>
+              </div>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3 text-primary">Permitted Uses</h2>
-              <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Use in commercial and non-commercial music productions</li>
-                <li>Use in beats for sale or lease</li>
-                <li>Use in streaming, radio, and broadcast</li>
-                <li>Use in film, TV, and video game soundtracks</li>
-                <li>Modify and manipulate sounds for your productions</li>
+              <h3 className="text-xl font-semibold mb-4 text-primary">2. RESTRICTIONS</h3>
+              <p className="mb-3">Licensee may not:</p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Resell, share, or redistribute the Materials (in whole or in part) as standalone content or as part of any other sample library or sound pack.</li>
+                <li>Claim full ownership/authorship of the original Materials, stems, or compositions.</li>
+                <li>Use the name "Sample Society" or the Creator's name in a misleading way that implies endorsement beyond proper credit.</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3 text-primary">Restrictions</h2>
-              <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>You may NOT resell, redistribute, or share the raw samples</li>
-                <li>You may NOT include samples in competing sample packs or libraries</li>
-                <li>You may NOT claim ownership of the original samples</li>
-                <li>You may NOT use samples in isolation as standalone tracks</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-xl font-semibold mb-3 text-primary">Refund Policy</h2>
-              <p className="text-muted-foreground">
-                Due to the digital nature of these products, all sales are final. Please listen to 
-                any available previews before purchasing. If you experience technical issues with 
-                your download, please contact us for support.
+              <h3 className="text-xl font-semibold mb-4 text-primary">3. RIGHTS AND OWNERSHIP</h3>
+              <p>
+                All copyrights in and to the original Materials remain the sole property of Sample Society and the individual Creator(s). This license grants use rights only; it does not transfer ownership. Licensee owns only the newly created derivative work, subject to the publishing and credit obligations for Master Use Materials. Creators retain their full master and publishing interests in their original works.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3 text-primary">Support</h2>
-              <p className="text-muted-foreground">
-                For any questions about licensing or usage, please reach out via our contact page.
+              <h3 className="text-xl font-semibold mb-4 text-primary">4. ROYALTIES, CREDIT, AND REGISTRATION</h3>
+              
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold mb-3 text-foreground">For Compositions, Stems, and Drum Breaks:</h4>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Licensee must credit the Creator(s) in all public releases (e.g., "Prod. [Creator Name]" or "Contains sample(s) by [Creator Name] via Sample Society").</li>
+                  <li>Licensee must honor agreed publishing splits (fair/even default 50% writer and 50% publisher split).</li>
+                  <li>Licensee shall provide publishing registration details and/or release metadata to Sample Society or the Creator(s) upon request.</li>
+                  <li>If the derived work is commercially released or placed (sync, label, film, etc.), Licensee must ensure Creator(s) are credited and compensated accordingly equivalent to the terms of use.</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="text-lg font-semibold mb-3 text-foreground">For One-Shots and Sound Banks:</h4>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>No royalties, credit, or registration is required.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">5. REPRESENTATIONS AND WARRANTIES</h3>
+              
+              <div className="mb-4">
+                <p className="mb-2">Sample Society and its Creators warrant that:</p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>The Materials are original and owned or properly licensed.</li>
+                  <li>The Materials do not knowingly infringe upon any third-party rights.</li>
+                </ul>
+              </div>
+              
+              <div>
+                <p className="mb-2">Licensee warrants that:</p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>They will use the Materials only as permitted herein.</li>
+                  <li>They will not misrepresent ownership or authorship of the underlying Materials.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">6. TERM AND TERRITORY</h3>
+              <p className="mb-3">
+                This Agreement is effective immediately upon purchase or download and remains in effect for the life of the copyright & any derivative works.
               </p>
+              <p>
+                This license applies worldwide, for all media and distribution channels now known or hereafter developed.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">7. ACCOUNTING AND VERIFICATION</h3>
+              <p>
+                Sample Society and/or the Creator(s) may request reasonable verification of earnings, credit, publishing registration, or royalty arrangements for any commercially released work using Master Use Materials. Licensee agrees to provide such verification upon request.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">8. GOVERNING LAW</h3>
+              <p>
+                This Agreement shall be governed by and construed in accordance with the laws of the State of Illinois, without regard to its conflict-of-law provisions.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">9. ENTIRE AGREEMENT</h3>
+              <p>
+                This Agreement constitutes the full understanding between the parties regarding the Materials. If any provision is deemed invalid or unenforceable, the remainder shall remain in full force and effect.
+              </p>
+            </section>
+
+            <section className="border-t border-border pt-6 mt-8">
+              <p className="font-semibold text-foreground">SAMPLE SOCIETY, LLC</p>
+              <p>Representing its affiliated creators and producers</p>
+              <p>www.sample-society.com</p>
+              <p className="mt-4 italic">Effective immediately upon purchase or download of product.</p>
             </section>
           </div>
         </div>
