@@ -50,6 +50,7 @@ export default function Terms() {
                 <li>Resell, share, or redistribute the Materials (in whole or in part) as standalone content or as part of any other sample library or sound pack.</li>
                 <li>Claim full ownership/authorship of the original Materials, stems, or compositions.</li>
                 <li>Use the name "Sample Society" or the Creator's name in a misleading way that implies endorsement beyond proper credit.</li>
+                <li>Use samples in isolation as standalone tracks without additional creative input.</li>
               </ul>
             </section>
 
@@ -129,6 +130,13 @@ export default function Terms() {
               <h3 className="text-xl font-semibold mb-4 text-primary">9. ENTIRE AGREEMENT</h3>
               <p>
                 This Agreement constitutes the full understanding between the parties regarding the Materials. If any provision is deemed invalid or unenforceable, the remainder shall remain in full force and effect.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-xl font-semibold mb-4 text-primary">10. REFUND POLICY</h3>
+              <p>
+                Due to the digital nature of these products, all sales are final. Please listen to any available previews before purchasing. If you experience technical issues with your download, please contact us for support.
               </p>
             </section>
 
