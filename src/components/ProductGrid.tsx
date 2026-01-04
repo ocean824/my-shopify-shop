@@ -6,9 +6,10 @@ import { Loader2 } from 'lucide-react';
 interface ProductGridProps {
   category?: string;
   title?: string;
+  excludeTypes?: string[];
 }
 
-export function ProductGrid({ category, title }: ProductGridProps) {
+export function ProductGrid({ category, title, excludeTypes = [] }: ProductGridProps) {
   const [products, setProducts] = useState<ShopifyProduct[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -18,7 +19,10 @@ export function ProductGrid({ category, title }: ProductGridProps) {
       try {
         setLoading(true);
         const query = category ? `product_type:${category}` : undefined;
-        const data = await fetchProducts(50, query);
+        let data = await fetchProducts(50, query);
+        if (excludeTypes.length > 0) {
+          data = data.filter(p => !excludeTypes.includes(p.node.productType));
+        }
         setProducts(data);
       } catch (err) {
         console.error('Failed to fetch products:', err);
