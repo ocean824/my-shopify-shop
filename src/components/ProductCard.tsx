@@ -14,12 +14,18 @@ export function ProductCard({ product }: ProductCardProps) {
   const addItem = useCartStore(state => state.addItem);
   const { node } = product;
   
-  const price = parseFloat(node.priceRange.minVariantPrice.amount);
-  const compareAtPrice = node.compareAtPriceRange?.minVariantPrice?.amount 
-    ? parseFloat(node.compareAtPriceRange.minVariantPrice.amount)
-    : null;
+  const priceAmount = node.priceRange.minVariantPrice.amount;
+  const compareAtAmount = node.compareAtPriceRange?.minVariantPrice?.amount;
+  const price = parseFloat(priceAmount);
+  const compareAtPrice = compareAtAmount && parseFloat(compareAtAmount) > 0 ? parseFloat(compareAtAmount) : null;
   const isOnSale = compareAtPrice && compareAtPrice > price;
   const salePercentage = isOnSale ? Math.round((1 - price / compareAtPrice) * 100) : 0;
+
+  // Format price cleanly (handles "24.990" -> "24.99" and "24.00" -> "24")
+  const formatPrice = (amount: number) => {
+    const rounded = Math.round(amount * 100) / 100;
+    return rounded % 1 === 0 ? rounded.toFixed(0) : rounded.toFixed(2);
+  };
 
   const imageUrl = node.images.edges[0]?.node.url;
   const firstVariant = node.variants.edges[0]?.node;
@@ -89,11 +95,11 @@ export function ProductCard({ product }: ProductCardProps) {
           </h3>
           <div className="flex items-center gap-2">
             <span className="text-lg font-bold text-primary">
-              ${price.toFixed(2)}
+              ${formatPrice(price)}
             </span>
-            {isOnSale && (
+            {isOnSale && compareAtPrice && (
               <span className="text-sm text-muted-foreground line-through">
-                ${compareAtPrice.toFixed(2)}
+                ${formatPrice(compareAtPrice)}
               </span>
             )}
           </div>
