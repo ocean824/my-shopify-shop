@@ -9,8 +9,8 @@ export default function Terms() {
         <div className="container mx-auto px-4 py-8 max-w-4xl">
           <p className="text-muted-foreground mb-2">nikothegreatbeatz@gmail.com</p>
           
-          <h1 className="text-3xl font-bold mb-2">SAMPLE SOCIETY TERMS OF USE</h1>
-          <h2 className="text-2xl font-bold mb-6">SAMPLE SOCIETY MASTER USE LICENSE AGREEMENT</h2>
+          <h1 className="text-3xl font-bold mb-2">NIKO THE GREAT TERMS OF USE</h1>
+          <h2 className="text-2xl font-bold mb-6">NIKO THE GREAT MASTER USE LICENSE AGREEMENT</h2>
           <p className="text-muted-foreground mb-8">(Effective Upon Purchase or Download)</p>
           
           <div className="prose prose-invert max-w-none space-y-8 text-muted-foreground">
