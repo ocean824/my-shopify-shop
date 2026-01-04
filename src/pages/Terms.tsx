@@ -49,7 +49,7 @@ export default function Terms() {
               <ul className="list-disc list-inside space-y-2">
                 <li>Resell, share, or redistribute the Materials (in whole or in part) as standalone content or as part of any other sample library or sound pack.</li>
                 <li>Claim full ownership/authorship of the original Materials, stems, or compositions.</li>
-                <li>Use the name "Sample Society" or the Creator's name in a misleading way that implies endorsement beyond proper credit.</li>
+                <li>Use the name "Niko The Great" or the Creator's name in a misleading way that implies endorsement beyond proper credit.</li>
                 <li>Use samples in isolation as standalone tracks without additional creative input.</li>
               </ul>
             </section>
@@ -57,7 +57,7 @@ export default function Terms() {
             <section>
               <h3 className="text-xl font-semibold mb-4 text-primary">3. RIGHTS AND OWNERSHIP</h3>
               <p>
-                All copyrights in and to the original Materials remain the sole property of Sample Society and the individual Creator(s). This license grants use rights only; it does not transfer ownership. Licensee owns only the newly created derivative work, subject to the publishing and credit obligations for Master Use Materials. Creators retain their full master and publishing interests in their original works.
+                All copyrights in and to the original Materials remain the sole property of Niko The Great and the individual Creator(s). This license grants use rights only; it does not transfer ownership. Licensee owns only the newly created derivative work, subject to the publishing and credit obligations for Master Use Materials. Creators retain their full master and publishing interests in their original works.
               </p>
             </section>
 
@@ -67,9 +67,9 @@ export default function Terms() {
               <div className="mb-4">
                 <h4 className="text-lg font-semibold mb-3 text-foreground">For Compositions, Stems, and Drum Breaks:</h4>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>Licensee must credit the Creator(s) in all public releases (e.g., "Prod. [Creator Name]" or "Contains sample(s) by [Creator Name] via Sample Society").</li>
+                  <li>Licensee must credit the Creator(s) in all public releases (e.g., "Prod. [Creator Name]" or "Contains sample(s) by [Creator Name] via Niko The Great").</li>
                   <li>Licensee must honor agreed publishing splits (fair/even default 50% writer and 50% publisher split).</li>
-                  <li>Licensee shall provide publishing registration details and/or release metadata to Sample Society or the Creator(s) upon request.</li>
+                  <li>Licensee shall provide publishing registration details and/or release metadata to Niko The Great or the Creator(s) upon request.</li>
                   <li>If the derived work is commercially released or placed (sync, label, film, etc.), Licensee must ensure Creator(s) are credited and compensated accordingly equivalent to the terms of use.</li>
                 </ul>
               </div>
@@ -86,7 +86,7 @@ export default function Terms() {
               <h3 className="text-xl font-semibold mb-4 text-primary">5. REPRESENTATIONS AND WARRANTIES</h3>
               
               <div className="mb-4">
-                <p className="mb-2">Sample Society and its Creators warrant that:</p>
+                <p className="mb-2">Niko The Great and its Creators warrant that:</p>
                 <ul className="list-disc list-inside space-y-2">
                   <li>The Materials are original and owned or properly licensed.</li>
                   <li>The Materials do not knowingly infringe upon any third-party rights.</li>
@@ -115,7 +115,7 @@ export default function Terms() {
             <section>
               <h3 className="text-xl font-semibold mb-4 text-primary">7. ACCOUNTING AND VERIFICATION</h3>
               <p>
-                Sample Society and/or the Creator(s) may request reasonable verification of earnings, credit, publishing registration, or royalty arrangements for any commercially released work using Master Use Materials. Licensee agrees to provide such verification upon request.
+                Niko The Great and/or the Creator(s) may request reasonable verification of earnings, credit, publishing registration, or royalty arrangements for any commercially released work using Master Use Materials. Licensee agrees to provide such verification upon request.
               </p>
             </section>
 
@@ -141,9 +141,8 @@ export default function Terms() {
             </section>
 
             <section className="border-t border-border pt-6 mt-8">
-              <p className="font-semibold text-foreground">SAMPLE SOCIETY, LLC</p>
+              <p className="font-semibold text-foreground">NIKO THE GREAT</p>
               <p>Representing its affiliated creators and producers</p>
-              <p>www.sample-society.com</p>
               <p className="mt-4 italic">Effective immediately upon purchase or download of product.</p>
             </section>
           </div>
