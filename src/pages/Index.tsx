@@ -20,7 +20,7 @@ const Index = () => {
               Hand-crafted sounds for producers who want to stand out
             </p>
           </div>
-          <ProductGrid title="All Products" />
+          <ProductGrid title="All Products" excludeTypes={["Drum Kit"]} />
         </div>
       </main>
       <Footer />
